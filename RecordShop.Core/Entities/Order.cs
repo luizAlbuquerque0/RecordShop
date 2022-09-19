@@ -8,6 +8,16 @@ namespace RecordShop.Core.Entities
 {
     public class Order : BaseEntity
     {
+        public Order(int idClient, int idStore, decimal totalCost, string paymentMethod, string observation)
+        {
+            IdClient = idClient;
+            IdStore = idStore;
+            TotalCost = totalCost;
+            PaymentMethod = paymentMethod;
+            Observation = observation;
+            
+        }
+
         public int IdClient { get; private set; }
         public int IdStore { get; private set; }
         public decimal TotalCost { get; private set; }
