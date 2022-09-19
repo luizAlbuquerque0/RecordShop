@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordShop", "RecordShop\RecordShop.csproj", "{A6BF2BAC-2612-4689-A573-FB64E73542CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop", "RecordShop\RecordShop.csproj", "{A6BF2BAC-2612-4689-A573-FB64E73542CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordShop.Core", "RecordShop.Core\RecordShop.Core.csproj", "{35CA4991-8A13-4D1B-A607-65BEDC0B040E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A6BF2BAC-2612-4689-A573-FB64E73542CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6BF2BAC-2612-4689-A573-FB64E73542CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6BF2BAC-2612-4689-A573-FB64E73542CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
