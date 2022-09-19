@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop", "RecordShop\RecordShop.csproj", "{A6BF2BAC-2612-4689-A573-FB64E73542CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop.API", "RecordShop\RecordShop.API.csproj", "{A6BF2BAC-2612-4689-A573-FB64E73542CE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop.Core", "RecordShop.Core\RecordShop.Core.csproj", "{35CA4991-8A13-4D1B-A607-65BEDC0B040E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordShop.Infrastructure", "RecordShop.Infrastructure\RecordShop.Infrastructure.csproj", "{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop.Infrastructure", "RecordShop.Infrastructure\RecordShop.Infrastructure.csproj", "{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}"
 	ProjectSection(ProjectDependencies) = postProject
 		{35CA4991-8A13-4D1B-A607-65BEDC0B040E} = {35CA4991-8A13-4D1B-A607-65BEDC0B040E}
 	EndProjectSection
