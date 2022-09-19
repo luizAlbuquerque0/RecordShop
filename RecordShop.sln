@@ -5,7 +5,12 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop", "RecordShop\RecordShop.csproj", "{A6BF2BAC-2612-4689-A573-FB64E73542CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordShop.Core", "RecordShop.Core\RecordShop.Core.csproj", "{35CA4991-8A13-4D1B-A607-65BEDC0B040E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordShop.Core", "RecordShop.Core\RecordShop.Core.csproj", "{35CA4991-8A13-4D1B-A607-65BEDC0B040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordShop.Infrastructure", "RecordShop.Infrastructure\RecordShop.Infrastructure.csproj", "{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35CA4991-8A13-4D1B-A607-65BEDC0B040E} = {35CA4991-8A13-4D1B-A607-65BEDC0B040E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35CA4991-8A13-4D1B-A607-65BEDC0B040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7051606-82EB-4CBD-BC5F-F0C1B7A10740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
