@@ -16,5 +16,7 @@ namespace RecordShop.Core.Entities
         public string PaymentStatus { get; private set; }
         public string Observation { get; private set; }
         public List<RecordSale> Records { get; private set; }
+        public User User { get; private set; }
+        public Store Store { get; private set; }
     }
 }

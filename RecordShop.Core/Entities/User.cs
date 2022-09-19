@@ -26,6 +26,7 @@ namespace RecordShop.Core.Entities
         public DateTime BirthDate { get; private set; }
         public string Phone { get; private set; }
         public string Adress { get; private set; }
+        public Order Order { get; private set; }
         public List<Order> Orders { get; private set; }
     }
 }

@@ -24,6 +24,7 @@ namespace RecordShop.Core.Entities
         public string Band { get; private set; }
         public string Album { get; private set; }
         public int Amount { get; private set; }
+        public Store Store { get; private set; }
 
 
     }
