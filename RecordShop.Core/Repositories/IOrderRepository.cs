@@ -10,7 +10,8 @@ namespace RecordShop.Core.Repositories
     public interface IOrderRepository
     {
         Task CreateOrderAsync(Order order);
-        Task CancelOrderAsync(int id);
+        Task<Order> GetByIdAsync(int id);
+        Task SaveChangesAsync();
 
     }
 }
