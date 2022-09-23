@@ -1,8 +1,14 @@
+using MediatR;
+using RecordShop.Application.Commands.CreateUser;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddMediatR(typeof(CreateUserCommand));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

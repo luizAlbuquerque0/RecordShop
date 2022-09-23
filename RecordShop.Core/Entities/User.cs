@@ -8,15 +8,15 @@ namespace RecordShop.Core.Entities
 {
     public class User : BaseEntity
     {
-        public User(string name, string cPF, string email, string password, string phone, string adress, DateTime birthDate)
+        public User(string name, string cPF, string email, string password,  DateTime birthDate)
         {
             Name = name;
             CPF = cPF;
             Email = email;
             Password = password;
-            Phone = phone;
-            Adress = adress;
             BirthDate = birthDate;
+            Phone = null;
+            Adress = null;
         }
 
         public string Name { get; private set; }
